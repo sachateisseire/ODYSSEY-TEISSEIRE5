@@ -1,0 +1,70 @@
+$color1: brown;
+$color2: black;
+$color3: #1C0D02;
+$width1: 100%;
+$height1: 18%;
+$bg1: red;
+$fs: 25px;
+
+body{
+    background-color: $color3;
+}
+
+.h1a{
+    background-color: $color1;
+    color: $color2;
+
+        span{
+            background-color: $color2;
+            color: $color1;
+        }
+}
+
+section{
+    width: 1000px;
+    height: 600px;
+    background-color: $color2;
+    align-items: center;
+
+        .div1{
+            width: $width1;
+            height: $height1;
+            background-color: $bg1;
+            border: white;
+            margin-bottom: 5px;
+            font-size: $fs;
+        }
+        .div2{
+            width: $width1;
+            height: $height1;
+            background-color: $bg1;
+            border: white;
+            margin-bottom: 5px;
+            font-size: $fs;
+        }
+        .div3{
+            width: $width1;
+            height: $height1;
+            background-color: $bg1;
+            border: white;
+            margin-bottom: 5px;
+            font-size: $fs;
+        }
+        .div4{
+            width: $width1;
+            height: $height1;
+            background-color: $bg1;
+            border: white;
+            margin-bottom: 5px;
+            font-size: $fs;
+        }
+        .div5{
+            width: $width1;
+            height: $height1;
+            background-color: $bg1;
+            border: white;
+            margin-bottom: 5px;
+            font-size: $fs;
+        }
+
+}
